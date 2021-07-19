@@ -53,5 +53,11 @@
     position: absolute;
     top: 200px;
     left: 60px;
+}
+.information-part{
+    background: #1b1b1b;
+}
+footer{
+    background: black;
 
 }
