@@ -33,11 +33,25 @@
 .port-card:hover .button{
     display: block;
 }
-
 .button{
     display: none;
     position: absolute;
     left: 40%;
     top: 50%;
+}
+.team-part{
+    background: #1b1b1b;
+}
+.team-card{
+    position: relative;
+}
+.team-card:hover .social-icon{
+    display: block;
+}
+.social-icon{
+    display: none;
+    position: absolute;
+    top: 200px;
+    left: 60px;
 
 }
