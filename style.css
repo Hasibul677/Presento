@@ -1,0 +1,19 @@
+.margin-top{
+    margin-top: 73px;
+}
+.hero-part{
+    height: 580px;
+    width: 100%;
+    padding-top: 100px;
+    background-image: url(img/blog/blog-recent-3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+}
+.Voluptatem-part{
+    background: #1b1b1b;
+    transform: skewY(-3deg);
+}
+.for-text{
+    transform: skewY(3deg);
+}
