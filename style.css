@@ -8,12 +8,36 @@
     background-image: url(img/blog/blog-recent-3.jpg);
     background-repeat: no-repeat;
     background-position: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    background-blend-mode: overlay;
     background-size: cover; 
 }
 .Voluptatem-part{
     background: #1b1b1b;
     transform: skewY(-3deg);
 }
-.for-text{
+.services-part{
+    background: #1b1b1b;
+    transform: skewY(-3deg);
+}
+.for-text, .section-title{
     transform: skewY(3deg);
+}
+.port-card{
+    position: relative;
+}
+.port-card:hover{
+    transform: scale(1.3);
+    transition: transform 1s ease;
+}
+.port-card:hover .button{
+    display: block;
+}
+
+.button{
+    display: none;
+    position: absolute;
+    left: 40%;
+    top: 50%;
+
 }
